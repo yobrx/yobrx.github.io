@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1024px) {
+   header .banner-text h1 {
+      font: 80px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;
+      margin: 0 auto 12px auto;
+   }
+}
+
+@media only screen and (max-width: 900px) {
+   header .banner { padding-bottom: 12px; }
+   header .banner-text h1 {
+      font: 78px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;      
+   }
+   header .banner-text h3 {
+      font: 17px/1.9em 'librebaskerville-regular', serif;
+      width: 80%;
+   }
+   header .banner-text hr {
+      width: 65%;
+      margin: 12px auto;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+   ul#nav li {
+      display: block;
+      height: auto;      
+      margin: 0 auto; 
+      padding: 0 4%;           
+      text-align: left;
+      border-bottom: 1px solid #2D2E34;
+      border-bottom-style: dotted; 
+   }
+  
+   ul#nav li a {  
+      display: block;
+      padding: 0;      
+      margin: 12px 0; 
+      line-height: 16px; /* reset line-height from 48px */
+      border: none;
+   }  
+
+   header .banner {
+      padding-bottom: 12px;
+      padding-top: 6px;
+   }
+   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text hr {
+      width: 80%;
+      margin: 18px auto;
+   }
+   header .social {
+      margin: 18px 0 24px 0;
+      font-size: 24px;
+      line-height: 36px;      
+   }
+   header .social li { margin: 0 10px; }
+}
+@media only screen and (max-width: 480px) {
+   header .banner { padding-top: 24px; }
+   header .banner-text h1 {
+      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      margin: 0 auto 24px auto;
+   }
+   header .social { font-size: 20px;}
+   header .social li { margin: 0 6px; }
+}
+
+
+
+
+
+
+
+
+
